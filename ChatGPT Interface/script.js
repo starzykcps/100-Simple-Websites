@@ -27,7 +27,7 @@ function init() {
         if (this.scrollHeight > 200) {
             this.style.height = '200px';
         }
-    });
+    }); 
     
     // Setup event listeners
     messageForm.addEventListener('submit', handleSubmit);
